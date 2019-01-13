@@ -1,0 +1,35 @@
+{
+  "name": "koalerplate",
+  "homepage": "https://github.com/dbalas/koalerplate.git",
+  "description": "A Koa 2 REST API Implementation based on dbalas/koalerplate 1.2.2.",
+  "bugs": {
+    "url": "https://github.com/dbalas/koalerplate/issues/new"
+  },
+  "repository": "git@github.com:notbrain/pdq-api.git",
+  "author": "Intrinsic Bits, LLC",
+  "license": "WTFPL, MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "cross-env NODE_ENVIRONMENT=production node index"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-respond": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "nextbusjs": "github:rf/nextbusjs",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "supervisor": "^0.12.0"
+  }
+}
