@@ -1,4 +1,25 @@
-# Koalerplate
+# pdq-api
+
+- Weather Forecast API
+- SF Muni Bus Time API
+- TODO: Bitcoin API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Based on the excellent:
+
+### Koalerplate
 
 A simple Koa 2 boilerplate for API's using ES6.
 
@@ -8,7 +29,7 @@ A simple Koa 2 boilerplate for API's using ES6.
 
 <a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>
 
-## What's in the package?
+#### What's in the package?
 
 * Routing with koa-router.
 * Parsing request with koa-bodyparser.
@@ -18,7 +39,7 @@ A simple Koa 2 boilerplate for API's using ES6.
 * nodemon for development to auto-restart when your files change.
 * dotenv for environment variable management.
 
-## Getting Started
+#### Getting Started
 
 ```
 git clone https://github.com/dbalas/koalerplate.git
@@ -29,22 +50,22 @@ npm run dev // or yarn dev
 
 By default the API server starts on port 3000, http://localhost:3000.
 
-### Prerequisites
+##### Prerequisites
 
 * node >= v7.6.0
 
-## Contributing
+#### Contributing
 
 Feel free to submit pull request or suggestions [here](https://github.com/dbalas/koalerplate/issues/new)
 
-## Versioning
+#### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/dbalas/koalerplate/tags).
 
-## Authors
+#### Authors
 
 * **Daniel Balastegui** - *Initial work* - [dbalas](https://github.com/dbalas)
 
-## License
+#### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
