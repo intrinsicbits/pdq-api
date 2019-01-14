@@ -1,13 +1,13 @@
 {
   "name": "koalerplate",
-  "homepage": "https://github.com/dbalas/koalerplate.git",
+  "homepage": "https://github.com/intrinsicbits/pdq-api.git",
   "description": "A Koa 2 REST API Implementation based on dbalas/koalerplate 1.2.2.",
   "bugs": {
-    "url": "https://github.com/dbalas/koalerplate/issues/new"
+    "url": "https://github.com/intrinsicbits/pdq-api/issues/new"
   },
   "repository": "git@github.com:notbrain/pdq-api.git",
   "author": "Intrinsic Bits, LLC",
-  "license": "WTFPL, MIT",
+  "license": "WTFPL",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
