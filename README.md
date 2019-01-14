@@ -9,4 +9,11 @@ This API works in tandem with `pdq-vue`, here: https://github.com/intrinsicbits/
 - SF Muni Bus Time API
 - TODO: Bitcoin API
 
+## Starting the API
+
+    npm i
+    npm run dev
+
+By default the API server starts on port 3000, http://localhost:3000.
+
 Based on the excellent https://github.com/dbalas/koalerplate
